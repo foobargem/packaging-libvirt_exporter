@@ -1,0 +1,3 @@
+[submodule "prometheus-libvirt-exporter"]
+	path = prometheus-libvirt-exporter
+	url = https://github.com/zhangjianweibj/prometheus-libvirt-exporter.git

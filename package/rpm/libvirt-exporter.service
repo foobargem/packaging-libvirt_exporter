@@ -1,0 +1,13 @@
+[Unit]
+Description=Libvirt Exporter
+Documentation=https://github.com/zhangjianweibj/prometheus-libvirt-exporter
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/sysconfig/libvirt_exporter
+ExecStart=/usr/bin/libvirt_exporter $OPTIONS
+
+[Install]
+WantedBy=multi-user.target

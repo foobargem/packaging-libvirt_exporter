@@ -1,0 +1,9 @@
+#
+#  -libvirt.uri string
+#    	Libvirt URI from which to extract metrics. (default "/var/run/libvirt/libvirt-sock")
+#  -web.listen-address string
+#    	Address to listen on for web interface and telemetry. (default ":9000")
+#  -web.telemetry-path string
+#    	Path under which to expose metrics. (default "/metrics")
+
+OPTIONS=""
